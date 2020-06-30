@@ -29,6 +29,7 @@ public class TextFileManager {
             e.printStackTrace();
         }
     }
+    
     public String load() {
         try {
             FileInputStream fisMemo = mContext.openFileInput(FILE_NAME);
